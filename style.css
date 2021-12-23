@@ -1,0 +1,399 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ============================================== Nav Bar================================================ */
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: #89db25; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-bar img{
+    width: 250px;
+    height: 65px;
+    padding-top: 6px;
+    padding-right: 10px;
+    
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+
+.nav-bar ul li{
+    
+    padding-right: 50px;
+    margin: auto;
+    font-size: 15px;
+}
+
+.nav-bar li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-bar li a:hover{
+    color: darkgrey;
+}
+/* Menu button hide */
+.nav-bar label, #menuToggle {
+    display: none;
+    
+}
+
+
+
+/* ============================================== Home Page================================================ */
+
+.info{
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.index{
+  background-color: lightgray ;
+  
+}
+
+.info .flex {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.info .flex img{
+    width: 400px;
+    height: 250px;
+}
+.info .flex p{
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.flex1{
+    display: flex;
+    justify-content: center;
+}
+
+.flex1 > div{
+    /* margin: 10px; */
+   
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.carlogo{
+    width: 200px;
+    height: 100px;
+}
+
+.para{
+    font-size: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: center;
+}
+/* ===============================
+FOOTER
+================================== */
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right:30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right:30px; 
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+/* ===============================
+Copyright
+================================== */
+
+#copyright{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background-color: darkgrey;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+
+/* ============================================== Cars4Sale Page ================================================ */
+
+.allcars{
+    text-align: center;
+    padding-top: 90px;
+}
+
+.allcars .logo{
+    width: 150px;
+    height: 90px;
+    border-radius: 90px;
+}
+
+.allcars .main{
+    /* text-align: center; */
+    width: 250px;
+    height: 140px;
+
+}
+
+.allcars .pics{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height:80px;
+    padding-left: 460px;
+    
+}
+
+.allcars .pics li{
+   text-align: center;
+}
+
+.allcars .pics img{
+    padding-left: 15px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+
+.pics img:hover{
+    -moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+}
+/* ============================================== Contact Us ================================================ */
+
+.contact{
+    padding-top: 70px;
+    padding-left: 250px;
+    color: black;
+}
+.img1{
+    float: left;
+    width: 320px;
+    height: 230px;
+    padding-right: 100px;
+
+}
+
+
+
+.please{
+    text-align: left;
+}
+
+#text3{
+    width:300px;
+}
+
+#text4{
+    height: 150px;
+    width: 300px;
+    text-align: left;
+}
+
+.subb-button{
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 80px;
+    height: 35px;
+    border: none;
+    display: grid;
+    align-items: center;
+}
+
+.notes{
+    text-align: center;
+}
+
+
+/* ==============================================Thanks page ================================================ */
+
+.thankyou{
+    text-align: center;
+    align-items: center;
+    background-color: darkgrey;
+    color: white;
+    padding-top: 100px;
+}
+
+
+
+/* ============================================== Media queries ================================================ */
+
+@media only screen and (max-width: 1150px) {
+   
+    .navitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        
+    }
+
+    .nav-bar label{
+        display: inline-block;
+        color: white;
+        background: grey;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+        
+    }
+
+    .navitems{
+        display: none;
+    }
+
+    .nav-bar input:checked~.navitems {
+        display: block;
+    }
+
+    /* hide menu items */
+  
+    .nav-bar .navitems{
+        display: none;
+        z-index: 9999;
+        width: 100%;
+        height: 400px;
+        background: #89db25;
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+
+    .nav-bar .navitems li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+   
+
+   
+}
+
+@media only screen and (max-width: 950){
+    .nav-bar img{
+        width: 200px;
+        height: 40px;
+        padding-top: 15px;
+    }
+
+    .info .flex img{
+        width: 100%;
+        height: 150px;
+        
+        
+
+    }
+
+    .info .flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 750px){
+    .nav-bar img{
+        width: 200px;
+        height: 40px;
+        padding-top: 15px;
+    }
+
+    .info .flex img{
+        width: 100%;
+        height: 150px;
+        
+        
+
+    }
+
+    .info .flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact{
+        padding-left:20px; 
+        margin-left: auto;
+       margin-right: auto;
+    }
+
+    .allcars{
+        text-align: center;
+    }
+
+   
+}
