@@ -188,8 +188,8 @@ Copyright
 .allcars{
     text-align: center;
     padding-top: 90px;
+    
 }
-
 .allcars .logo{
     width: 150px;
     height: 90px;
@@ -208,8 +208,10 @@ Copyright
     flex-direction: row;
     width: 150px;
     height:80px;
-    padding-left: 460px;
-    
+    padding-right: 135px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .allcars .pics li{
